@@ -1,0 +1,10 @@
+.display-btn{
+    border: 2px solid rgb(21, 250, 0);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+    margin: auto 10px;
+}
+.display-btn:hover{
+    background-color: rgb(21, 250, 0);
+}

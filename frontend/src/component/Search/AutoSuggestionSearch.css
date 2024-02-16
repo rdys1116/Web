@@ -1,0 +1,50 @@
+.search-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+}
+.search-box > input{
+    width: 40vw;
+    height: 25px;
+    padding: 0px 5px;
+    margin: auto;
+    align-items: center;
+    border: 1px solid rgb(77, 76, 76);
+    border-radius: 10px;
+    outline: transparent;
+}
+.suggestion-box{
+    position: absolute;
+    grid-column: 2;
+    width: 40vw;
+    margin: 30px 1px;
+    /* padding: 0px 5px; */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px rgb(126, 126, 126);
+    z-index: 2;
+}
+.suggestion-box > p{
+    padding: 0px 5px;
+}
+.suggestion-box > p:first-child, p:last-child{
+    border-radius: 10px 10px 0px 0px;
+}
+.suggestion-box > p:last-child{
+    border-radius: 0px 0px 10px 10px;
+}
+label{
+    margin: 10px;
+    font-weight: 700;
+}
+.selected-item{
+    background-color: grey;
+}
+
+/* effects */
+input:focus{
+    border: 2px solid rgb(0, 0, 0);
+}
+.suggestion-box > p:hover{
+    background-color: grey;
+}

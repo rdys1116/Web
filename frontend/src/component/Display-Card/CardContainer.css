@@ -1,0 +1,72 @@
+#landingPage{
+    width: 100%;
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 47vw 47vw;
+    grid-gap: 2vw;
+    margin: auto 2vw;
+    text-align: center;
+}
+.netflix-card-container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.netflix-card-container::-webkit-scrollbar{
+    height: 3px;
+    background-color: transparent;
+}
+.netflix-card-container::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+.card-section-heading, .load-button{
+    grid-column: 1/3;
+}
+.netflix-style-load-button{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding-right: 20px;
+}
+.netflix-style-load-button button{
+    background-color: transparent;
+    outline: transparent;
+    border: transparent;
+}
+.card-container .fas{
+    font-size: 2rem;
+}
+.load-button button{
+    background-color: rgb(31, 104, 168);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 8rem;
+    height: 2rem;
+    margin: 10px auto 50px;
+}
+
+@media screen and (min-width: 600px){
+    .card-container{
+        grid-template-columns: repeat(4, 22vw);
+        grid-gap: 2vw;
+        margin: 0;
+        justify-content: center;
+    }
+    .card-section-heading, .load-button{
+        grid-column: 1/5;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .card-container{
+        grid-template-columns: repeat(5, 18vw);
+        grid-gap: 2vw;
+        justify-content: center;
+    }
+    .card-section-heading, .load-button{
+        grid-column: 1/6;
+    }
+}

@@ -1,0 +1,38 @@
+#genres{
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.genre-box{
+    display: inline-block;
+    margin: 3px 5px;
+    padding: 1px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+.selected-genre{
+    background-color: rgb(87, 35, 228);
+    color: white;
+}
+#genre .fas{
+    font-size: 15px;
+    color: white;
+    margin: 2px 0px 2px 3px;
+}
+.cross{
+    display: inline;
+    height: 20px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(247, 247, 247);
+}
+.genre:active{
+    background-color: rgb(221, 221, 221);
+}
+.genre-box:hover{
+    background-color: gray;
+}
+.selected-genre:hover{
+    background-color: rgb(96, 118, 245);
+}

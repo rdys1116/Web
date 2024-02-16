@@ -1,0 +1,11 @@
+.mainImageSection{
+    position: relative;
+    z-index: 1;
+}
+.mainImageHeading{
+    background-color: rgb(79, 80, 80);
+    position: absolute;
+    top: 0;
+    font-size: 2rem;
+    z-index: 2;
+}

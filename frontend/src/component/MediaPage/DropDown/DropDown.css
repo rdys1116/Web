@@ -1,0 +1,22 @@
+.select-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select-title{
+    display: inline-block;
+}
+.select-box{
+    display: inline-block;
+    outline: transparent;
+    height: auto;
+    padding: 2px;
+    border-width: 2px;
+    border-radius: 7px;
+    align-items: baseline;
+}
+
+/* effects */
+.select-box:hover{
+    border: 2px inset rgb(52, 255, 1);
+}

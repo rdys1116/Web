@@ -1,0 +1,24 @@
+.div-container{
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.div-container a{
+    text-decoration: underline;
+    color: rgb(0, 102, 255);
+}
+.suggestion-title{
+    margin: 20px auto 10px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.suggestion-list{
+    list-style-type: circle;
+    font-size: 1.5rem;
+    width: max-content;
+    margin: auto;
+    padding: 10px 50px;
+}
+.suggestion-list > li{
+    width: max-content;
+}

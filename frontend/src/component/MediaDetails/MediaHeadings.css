@@ -1,0 +1,246 @@
+.genre{
+    background-color: #ff000035 ;
+    color: #ff0000 ;
+    padding: 3px 8px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.genre:hover{
+    background-color: #ff0000 ;
+    color: #fff ;
+}
+
+/* Action & Adventure  */
+.genre-10759{
+    background-color: rgba(66, 170, 211,0.3);
+    color: rgb(66, 170, 211); 
+}
+.genre-10759:hover{
+    background-color: rgb(66, 170, 211); 
+    color: #fff ;
+}
+/* animation */
+.genre-16{
+    background-color: rgb(119, 243, 133);
+    color: rgba(16, 195, 10, 0.655); 
+}
+.genre-16:hover{
+    background-color: rgb(46, 214, 31); 
+    color: #fff ;
+}
+
+/*comedy*/
+.genre-35{
+    background-color: rgb(172, 141, 251);
+    color: rgb(74, 60, 206); 
+}
+.genre-35:hover{
+    background-color: rgb(30, 41, 238); 
+    color: #fff ;
+}
+
+/*crime*/
+.genre-80{
+    background-color: rgb(253, 184, 81);
+    color: rgb(238, 91, 6); 
+}
+.genre-80:hover{
+    background-color: rgb(247, 81, 48); 
+    color: #fff ;
+}
+
+
+/*documentary  */
+.genre-99{
+    background-color: rgb(80, 239, 225);
+    color: rgb(7, 89, 221); 
+}
+.genre-99:hover{
+    background-color: rgb(11, 21, 154); 
+    color: #fff ;
+}
+
+/*drama  */
+.genre-18{
+    background-color: rgb(249, 95, 213);
+    color: rgb(155, 8, 131); 
+}
+.genre-18:hover{
+    background-color: rgb(249, 4, 192); 
+    color: #fff ;
+}
+
+/*family  */
+.genre-10751{
+    background-color: rgb(203, 241, 108);
+    color: rgba(120, 143, 5, 0.86); 
+}
+.genre-10751:hover{
+    background-color: rgb(114, 136, 14); 
+    color: #fff ;
+}
+
+/*kids  */
+.genre-10762{
+    background-color: rgb(8, 110, 37);
+    color: rgb(216, 244, 89); 
+}
+.genre-10762:hover{
+    background-color: rgb(4, 177, 36); 
+    color: #fff ;
+}
+
+/*mystery  */
+.genre-9648{
+    background-color: rgb(84, 94, 87);
+    color: rgb(21, 24, 11); 
+}
+.genre-9648:hover{
+    background-color: rgb(11, 13, 11); 
+    color: #fff ;
+}
+
+/*news  */
+.genre-10763{
+    background-color: rgb(220, 245, 81);
+    color: rgb(142, 77, 3); 
+}
+.genre-10763:hover{
+    background-color: rgb(245, 225, 7); 
+    color: #fff ;
+}
+
+/*reality */
+.genre-10764{
+    background-color: rgb(123, 248, 194);
+    color: rgba(8, 203, 44, 0.745); 
+}
+.genre-10764:hover{
+    background-color: rgb(68, 216, 10); 
+    color: #fff ;
+}
+
+/*sci-fi & fantasy*/
+.genre-10765{
+    background-color: rgb(154, 123, 248);
+    color: rgba(19, 2, 247, 0.745); 
+}
+.genre-10765:hover{
+    background-color: rgb(47, 5, 152); 
+    color: #fff ;
+}
+
+/*soap*/
+.genre-10766{
+    background-color: rgb(121, 236, 251);
+    color: rgba(8, 169, 169, 0.745); 
+}
+.genre-10766:hover{
+    background-color: rgb(5, 106, 108); 
+    color: #fff ;
+}
+
+/*talk*/
+.genre-10767{
+    background-color: rgb(245, 142, 235);
+    color: rgba(131, 10, 119, 0.745); 
+}
+.genre-10767:hover{
+    background-color: rgb(222, 8, 151); 
+    color: #fff ;
+}
+
+/*war and politics*/
+.genre-10768{
+    background-color: rgb(249, 144, 144);
+    color: rgba(241, 5, 5, 0.745); 
+}
+.genre-10768:hover{
+    background-color: rgb(252, 55, 6); 
+    color: #fff ;
+}
+
+/*western*/
+.genre-37{
+    background-color: rgb(240, 252, 171);
+    color: rgb(98, 105, 24); 
+}
+.genre-37:hover{
+    background-color: rgb(168, 207, 9); 
+    color: #fff ;
+}
+
+/*movie*/
+/* action*/
+.genre-28{
+    background-color: rgba(66, 170, 211,0.3);
+    color: rgb(66, 170, 211); 
+}
+.genre-28:hover{
+    background-color: rgb(66, 170, 211); 
+    color: #fff ;
+}
+
+/* fantasy*/
+.genre-14{
+    background-color: rgba(241, 176, 215, 0.3);
+    color: rgb(249, 7, 164); 
+}
+.genre-14:hover{
+    background-color: rgb(250, 67, 244); 
+    color: #fff ;
+}
+
+/* adventure*/
+.genre-12{
+    background-color: rgba(28, 245, 8, 0.877);
+    color: rgb(20, 1, 13); 
+}
+.genre-12:hover{
+    background-color: rgb(58, 241, 26); 
+    color: #fff ;
+}
+
+/* horror*/
+.genre-27{
+    background-color: rgba(182, 188, 182, 0.877);
+    color: rgb(20, 3, 14); 
+}
+.genre-27:hover{
+    background-color: rgb(2, 14, 0); 
+    color: #fff ;
+}
+
+/* romance*/
+.genre-10749{
+    background-color: rgba(253, 4, 4, 0.877);
+    color: rgba(199, 243, 6, 0.781); 
+}
+.genre-10749:hover{
+    background-color: rgb(249, 7, 7); 
+    color: #fff ;
+}
+
+/*thriller*/
+.genre-53{
+    background-color: rgba(122, 128, 230, 0.877);
+    color: rgba(27, 6, 165, 0.781); 
+}
+.genre-53:hover{
+    background-color: rgb(79, 12, 174); 
+    color: #fff ;
+}
+
+
+
+
+
+
+
+
+
+
+
+

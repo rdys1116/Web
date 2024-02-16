@@ -1,0 +1,24 @@
+{
+  "name": "media-tracker",
+  "version": "1.0.0",
+  "description": "track movies and tv shows",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "npm install && cd frontend && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vajresh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
