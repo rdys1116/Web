@@ -31,7 +31,7 @@ The current version is 1.0.0 which is a MVP (minimum viable project) and as of n
 [Media Tracker](https://track-media.herokuapp.com/)
 | Version   | Release Date  |
 | :----:    | :---------:   |
-| v1.0.0    | 09 May 2021   |
+| v1.0.0    | 09 Feb 2024   |
 
 
 ## Technologies And Support
